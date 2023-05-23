@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 
 // ConnectDatabase
 const connectDatabase = () => {
-    var url = "mongodb://localhost:27017";
+    var url = "mongodb+srv://user:user@cluster0.xcwa9nz.mongodb.net/?retryWrites=true&w=majority";
     mongoose
         .connect(url, { useNewUrlParser: true, useUnifiedTopology: true },)
         .then(() => console.log('MongoDB connected'))

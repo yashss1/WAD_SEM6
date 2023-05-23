@@ -3,7 +3,7 @@ function FetchData()
     var xhr = new XMLHttpRequest()
     xhr.open("GET","https://jsonplaceholder.typicode.com/users")
     xhr.send()
-    xhr.onload=()=>{
+    xhr.onload= ()=>{
         let response = xhr.responseText
         localStorage.setItem("users",response)
     }

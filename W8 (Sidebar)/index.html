@@ -1,258 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>W9</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Statement_8</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
 
-    <!-- CSS  -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
-
-    <!-- BOOTSTRAP  -->
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-
+        .links a {
+            display: block;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+        .butt1{
+            position: relative;
+            max-width: 100px;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="header">
-        WADL_W8
-    </div>
 
-    <!-- W8_1 -->
-    <div class="container-fluid">
+    <main class="container my-5">
         <div class="row">
-            <div class="col-3">
-                    <div class="sidebar">
-                        <h3>Some Favourites</h3>
-                        <ul class="list-unstyled" > 
-                            <li><a href="">Celery Root</a> </li>
-                            <li>Spagahetti </li>
-                            <li>Killer Mushrooms </li>
-                        </ul>
-                        <input type="text" name="search" id="search" class="px-2 py-1">
-                        <br>
-                        <button class="btn btn-primary mt-1  " >Search Recipes</button>
-                    </div>
+            <div class="butt1">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#Id1"
+                aria-controls="Id1">Side Menu</button>
             </div>
-            <div class="col-9">
-                <div class="content">
-                    <h1>Wild & Wacky Vegetables</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aperiam optio inventore ut nisi eius assumenda iusto debitis libero dignissimos impedit voluptatum, earum itaque, ab numquam blanditiis! Libero, in recusandae. Magni quae nulla quasi temporibus. Necessitatibus minus quia praesentium vitae! Unde pariatur, earum nisi voluptatem iste nobis rerum consequatur nemo incidunt vero! Voluptas eius maxime, aspernatur repellat eligendi amet dolorem beatae animi, facere a aperiam nam enim qui voluptates, quasi quisquam sunt? Delectus repellat deleniti maxime molestiae! Ut, ad quibusdam dolor alias temporibus consequuntur porro officiis in culpa sapiente, accusamus incidunt aspernatur ea. Dolor et laudantium velit nulla. Quas porro aliquam minus nostrum suscipit sunt tempora nam, asperiores at dolorem aut quos temporibus laudantium magni minima possimus mollitia a libero obcaecati nobis voluptates! Architecto culpa cumque at provident. Cum, beatae consectetur. Eaque et quasi numquam cumque provident autem, officia, voluptas iste tempora delectus sunt nihil, odio repellendus distinctio beatae! Consectetur similique quia enim iusto neque sunt temporibus rerum minus est, assumenda possimus voluptate perferendis iste culpa voluptatum! Praesentium exercitationem voluptatibus possimus! Architecto recusandae quos minus inventore eaque est harum deserunt atque mollitia, delectus facere perferendis. Dolore vitae, odio quae quis eveniet vero, amet tempore neque iste iusto voluptates? Quas, fuga.
-                    </p>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="Id1"
+                aria-labelledby="Enable both scrolling & backdrop">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="Enable both scrolling & backdrop">Backdrop with scrolling</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <hr>
-    <!-- W8_2 -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-3">
-                    <div class="sidebar">
-                        <h3>Some Favourites</h3>
-                        <ul class="list-unstyled" > 
-                            <li><a href="">Celery Root</a> </li>
-                            <li>Spagahetti </li>
-                            <li>Killer Mushrooms </li>
-                        </ul>
-                        <input type="text" name="search" id="search" class="px-2 py-1">
-                        <br>
-                        <button class="btn btn-primary mt-1  " >Search Recipes</button>
-                    </div>
-            </div>
-            <div class="col-9">
-                <div class="content">
-                    <div class="quote">
-                        <h1>Wild & Wacky Vegetables</h1>
-                        <figure>
-                            <blockquote class="blockquote">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dolorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus qui officiis delectus labore quod ad doloremque, sequi assumeda exercitationem sint! voluptate, id animi porro cupiditate!</p>
-                            </blockquote>
-                            <figcaption class="blockquote-footer">
-                                Someone famous in <cite title="Source Title">PICT</cite>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="side_table">
-                        <h2>Some Diseases</h2>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th scope="col  " >Veggie</th>
-                                    <th scope="col  " >Diseases</th>
-                                </tr>
-                                <tbody>
-                                    <tr>
-                                        <td scope="row" >Carrot</td>
-                                        <td  >Carrotainos</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row" >Beets</td>
-                                        <td  >Beeturia</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row" >Carrot</td>
-                                        <td  >Carrotainos</td>
-                                    </tr>
 
-                                </tbody>
-                            </thead>
-                        </table>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae enim dolor vero cum minus pariatur, unde sed distinctio atque eum optio suscipit? Vero recusandae laborum tempore consequuntur distinctio cumque ducimus possimus neque inventore corporis, accusantium incidunt, nisi dignissimos, consectetur animi voluptatem aliquam impedit eius repudiandae sit asperiores? Illum quibusdam, omnis est nulla blanditiis officia voluptatum repellat nobis facere eaque iusto sapiente facilis corrupti veniam ducimus repudiandae totam molestias laboriosam quaerat debitis officiis eum. Quibusdam error saepe, quo nam iure, accusamus possimus sequi libero natus doloribus placeat dolor autem ratione provident neque animi iste ducimus. Atque velit at ullam earum veniam?
-                        </p>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eum molestiae facere a impedit quo modi pariatur laboriosam sed eveniet suscipit repellat, optio ratione necessitatibus reiciendis vel autem quis magnam corporis dolores velit dicta? Aut officiis cupiditate eveniet repellendus nostrum.
-                        </p>
-                    </div>
-                    <div class="images">
-                        <div class="row p-0 m-0">
-                            <div class="col p-0 m-0  d-md-block">
-                                <img  class="img-thumbnail img-fluid w-25" src="./assets/imgs/Sunset_Girl.jpg" alt="">
-                                <img  class="img-thumbnail img-fluid w-25" src="./assets/imgs/Sunset_Girl.jpg" alt="">
-                                <img  class="img-thumbnail img-fluid w-25" src="./assets/imgs/Sunset_Girl.jpg" alt="">
-                            </div>
-
+                <div class="offcanvas-body">
+                    <div class="sidebar col-9">
+                        <h2>Some Favorites</h2>
+                        <div class="links">
+                            <a href="">Celery Root</a>
+                            <a href="./page2.html">Spaghetti Squash</a>
+                            <a href="">Killer Mushrooms</a>
                         </div>
+                        <input type="text" class="form-control">
+                        <button class="btn btn-primary">Search Recipes</button>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>    
-    <br>
-    <br>
-    <hr>
-    <!-- W8_3 -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-3">
-                    <div class="sidebar">
-                        <h3>Some Favourites</h3>
-                        <ul class="list-unstyled" > 
-                            <li><a href="">Celery Root</a> </li>
-                            <li>Spagahetti </li>
-                            <li>Killer Mushrooms </li>
-                        </ul>
-                        <input type="text" name="search" id="search" class="px-2 py-1">
-                        <br>
-                        <button class="btn btn-primary mt-1  " >Search Recipes</button>
-                    </div>
-            </div>
+
+
             <div class="col-9">
-                <div class="alert alert-danger">
-                    <strong>
-                        Uh oh!
-                    </strong> Have you had your daily dose of veggies today?
-                </div>
-                <div class="content">
-                    <div class="quote">
-                        <h1>Wild & Wacky Vegetables</h1>
-                        <figure>
-                            <blockquote class="blockquote">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dolorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus qui officiis delectus labore quod ad doloremque, sequi assumeda exercitationem sint! voluptate, id animi porro cupiditate!</p>
-                            </blockquote>
-                            <figcaption class="blockquote-footer">
-                                Someone famous in <cite title="Source Title">PICT</cite>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="side_table">
-                        <h2>Some Diseases</h2>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th scope="col  " >Veggie</th>
-                                    <th scope="col  " >Diseases</th>
-                                </tr>
-                                <tbody>
-                                    <tr>
-                                        <td scope="row" >Carrot</td>
-                                        <td  >Carrotainos</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row" >Beets</td>
-                                        <td  >Beeturia</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row" >Carrot</td>
-                                        <td  >Carrotainos</td>
-                                    </tr>
+                <h1 class="title">Wild & Wacky Vegetables</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis vero eaque excepturi optio id
+                    aut, ea placeat velit beatae suscipit odit, ipsum magni quae quasi enim culpa debitis voluptas
+                    fugiat perspiciatis praesentium aperiam autem ex tempora eligendi. Aspernatur, impedit nam.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod similique ut esse maiores
+                    perspiciatis, asperiores aspernatur illum in earum! Quis, hic optio iure labore quam facilis
+                    blanditiis fuga placeat perferendis praesentium provident ducimus. Est sed quam hic in aliquid
+                    doloremque quidem iusto vel itaque. Doloribus dolorem blanditiis non voluptatibus sequi iusto
+                    voluptates nesciunt sed eos vitae! Odio quam nesciunt perspiciatis aliquam consequuntur illo
+                    reiciendis eius adipisci non necessitatibus libero sunt incidunt earum mollitia nulla quos molestiae
+                    facere, a beatae ex dignissimos explicabo. Eaque, aliquam error nesciunt voluptates nostrum rerum
+                    sint alias quo temporibus reprehenderit officiis dolor adipisci inventore ipsum praesentium?
+                </p>
 
-                                </tbody>
-                            </thead>
-                        </table>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae enim dolor vero cum minus pariatur, unde sed distinctio atque eum optio suscipit? Vero recusandae laborum tempore consequuntur distinctio cumque ducimus possimus neque inventore corporis, accusantium incidunt, nisi dignissimos, consectetur animi voluptatem aliquam impedit eius repudiandae sit asperiores? Illum quibusdam, omnis est nulla blanditiis officia voluptatum repellat nobis facere eaque iusto sapiente facilis corrupti veniam ducimus repudiandae totam molestias laboriosam quaerat debitis officiis eum. Quibusdam error saepe, quo nam iure, accusamus possimus sequi libero natus doloribus placeat dolor autem ratione provident neque animi iste ducimus. Atque velit at ullam earum veniam?
-                        </p>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eum molestiae facere a impedit quo modi pariatur laboriosam sed eveniet suscipit repellat, optio ratione necessitatibus reiciendis vel autem quis magnam corporis dolores velit dicta? Aut officiis cupiditate eveniet repellendus nostrum.
-                        </p>
-                    </div>
-                    <div class="images">
-                        <div class="row p-0 m-0">
-                            <div class="col  ">
-                                    <div class="card">
-                                        <img class="img-fluid img-thumbnail  "  src="./assets/imgs/Sunset_Girl.jpg" alt="">
-                                        <div class="card-body">
-                                            <div class="card-title">
-                                            <h3>Card TItle</h3>
-                                            </div>
-                                            <div class="card-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero.
-                                            </div>
-                                        </div>
-                                    </div>
-
-                            </div>
-                            <div class="col  ">
-                                <div class="card">
-                                    <img class="img-fluid img-thumbnail "  src="./assets/imgs/Sunset_Girl.jpg" alt="">
-                                    <div class="card-body">
-                                        <div class="card-title">
-                                        <h3>Card TItle</h3>
-                                        </div>
-                                        <div class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero.
-                                        </div>
-                                    </div>
-                                </div>
-
-                        </div>
-                        <div class="col  ">
-                            <div class="card">
-                                <img class="img-fluid img-thumbnail  "  src="./assets/imgs/Sunset_Girl.jpg" alt="">
-                                <div class="card-body">
-                                    <div class="card-title">
-                                    <h3>Card TItle</h3>
-                                    </div>
-                                    <div class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero.
-                                    </div>
-                                </div>
-                            </div>
-
-                    </div>
-                        </div>
-                    </div>
-                    <div class="info mt-3">
-                        <h3>Really informative info</h3>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quam fugit porro repudiandae eos reprehenderit fuga id veritatis adipisci placeat tempore iure corporis quo rerum repellendus quos ea, nesciunt itaque. Distinctio sint ipsa laboriosam ducimus magnam quod nesciunt ab minima laborum ea odio tenetur, cumque minus quaerat assumenda architecto consectetur corporis voluptatem suscipit impedit totam pariatur adipisci dolorum! Facilis hic veritatis ipsam aliquam magni culpa aut officia in saepe distinctio! Et reiciendis omnis, suscipit error provident consectetur laboriosam pariatur dolor blanditiis perspiciatis, beatae eligendi quasi amet fuga libero, doloribus qui eveniet! Deserunt, impedit? Ab et sed rem vitae fuga cupiditate.
-                        </p>
-                    </div>
-                </div>
+               
             </div>
-        </div>
-    </div>  
-    <br>
-    <br>
-    <br>
-    <br>
 
+            <marquee direction = "right"  style="border:solid">Yash</marquee>
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
